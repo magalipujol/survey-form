@@ -17,12 +17,19 @@
 <form>
   <div class="form-part">
     <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
     </input>
   </div>
   <div class="form-part">
     <label for="email">Email:</label><br>
-    <input type="email" id="email" name="name" placeholder="Enter your email"></input>
+    <input type="email" id="email" name="name" placeholder="Enter your email" required>
+    </input>
+  </div>
+  <div class="form-part">
+    <label for="age">Age: <span class="optional-text">(optional)</span></label> <br>
+    <input type="number" id="age" name="age" placeholder="Age" min=0 max=110>
+  </input>
+
   </div>
 </form>
 </body>

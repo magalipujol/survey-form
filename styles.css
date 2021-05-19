@@ -9,3 +9,24 @@ dark light blue: #1cbdc5
     color: grey;
     font-size: small;
 }
+
+#description {
+    background-color: honeydew;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: -1000px;
+}
+
+.form-group {
+    padding: 0.9%
+}
+
+.card-img-top {
+    height: 60%;
+}
+
+.btn {
+    background-color: #1cbdc5;
+    border-color: #1cbdc5;
+}
+
